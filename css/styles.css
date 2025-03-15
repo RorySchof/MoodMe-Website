@@ -416,7 +416,7 @@ input[type="checkbox"] {
 
 .navbar {
     position: relative;
-    background-color: #f1f9fc;
+    background-color: #FEB970;
     padding: 0.5rem 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -433,6 +433,7 @@ input[type="checkbox"] {
     right: 0;
     left: 0;
     z-index: 1030;
+    
 }
 
 .navbar-toggler-icon {
@@ -573,8 +574,9 @@ input[type="checkbox"] {
 /*    Header     */
 /*****************/
 .header {
-    background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
+    background: linear-gradient(rgba(254, 185, 112, 1), rgba(255, 255, 255, 1)); /* Peach (#feb970) to white gradient */
 }
+
 
 /********************/
 /*     Features     */
@@ -590,7 +592,7 @@ input[type="checkbox"] {
     padding: 3.125rem 1rem 2.125rem 1rem;
     border: none;
     border-radius: 16px;
-    background-color: #f1f9fc;
+    /* background-color: #f1f9fc; */
 }
 
 .cards-1 .card-image {
@@ -876,9 +878,10 @@ input[type="checkbox"] {
 .footer {
     padding-top: 6rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));
+    background: linear-gradient(rgba(254, 185, 112, 1), rgba(255, 255, 255, 1)); /* Peach to white gradient */
     text-align: center;
 }
+
 
 .footer a {
     text-decoration: none;
@@ -914,7 +917,7 @@ input[type="checkbox"] {
 /*********************/
 .copyright {
     padding-top: 1.5rem;
-    background-color: #c5eaf9;
+    background-color:#ffffff;
     text-align: center;
 }
 
